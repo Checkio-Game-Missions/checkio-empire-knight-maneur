@@ -1,2 +1,2 @@
-To trick enemies we will use the ancient Knight manoeuvre.
-If our robots and craft will move with tricky path, then enemy could not hit them.
+To trick our enemies we will use the ancient Chess-Knight manoeuvre.
+If our robots will drive their craft along a tricky path which the enemy cannot hit.
