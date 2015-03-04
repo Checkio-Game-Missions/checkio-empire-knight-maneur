@@ -11,3 +11,7 @@ You should find the length of the shortest path for the knight from one point to
 [!short-knight-path](short-knight-path.svg)
 
 You can learn more about chess here on [Wikipedia](http://en.wikipedia.org/wiki/Chess).
+
+In this mission the main goal to make your code as short as possible.
+The shorter your code, the more points you earn.
+Your score for this mission is dynamic and directly related to the length of your code.
