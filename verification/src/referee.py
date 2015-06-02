@@ -8,13 +8,12 @@ from tests import TESTS
 
 class Referee(RefereeCodeGolf):
     TESTS = TESTS
-    DEFAULT_MAX_CODE_LENGTH = 250
-    BASE_POINTS = 25
+    DEFAULT_MAX_CODE_LENGTH = 500
+    BASE_POINTS = 10
     ENVIRONMENTS = settings_env.ENVIRONMENTS
 
     DEFAULT_FUNCTION_NAME = "golf"
     ENV_COVERCODE = {
-        "python_2": covercodes.py_2_str,
         "python_3": None,
         "javascript": None
     }
