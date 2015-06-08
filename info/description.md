@@ -8,6 +8,30 @@ and one square vertically.
 You are given the start and end squares as chess coordinates separated by a hyphen.
 You should find the length of the shortest path for the knight from one point to another on the chessboard.
 
-[!short-knight-path](short-knight-path.svg)
+```
+
+   |---|---|---|---|---|---|---|---|
+8  |   |   |   | ↓ ← ← ← ♘ ← ← | ♞ |
+   |---|---|---|-↓-|---|---|-↑-|-↓-|
+7  |   |   |   | ♞ |   |   | ↑ | ↓ |
+   |---|---|---|---|---|---|-↑-|-↓-|
+6  |   |   |   |   |   |   | ♘ ← ← |
+   |---|---|---|---|---|---|---|---|
+5  |   |   | → → ♞ |   |   | → → ♘ |
+   |---|---|-↑-|---|---|---|-↑-|-↓-|
+4  |   |   | ↑ |   |   | ♘ ← ↑ ← ← |
+   |---|---|-↑-|---|---|-↓-|-↑-|---|
+3  |   | → → ♘ |   |   | ↓ | ♘ ← ← |
+   |---|-↑-|---|---|---|-↓-|---|-↑-|
+2  |   | ↑ |   |   |   | → → ♞ | ↑ |
+   |---|-↑-|---|---|---|---|---|-↑-|
+1  |   | ♞ |   |   |   |   |   | ♞ |
+   |---|---|---|---|---|---|---|---|
+     a   b   c   d   e   f   g   h
+
+b1-d5 -> 2 moves
+h8-d7 -> 3 moves
+h1-g2 -> 4 moves
+```
 
 You can learn more about chess here on [Wikipedia](http://en.wikipedia.org/wiki/Chess).
