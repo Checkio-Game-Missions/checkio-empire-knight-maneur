@@ -13,7 +13,3 @@ class Referee(RefereeCodeGolf):
     ENVIRONMENTS = settings_env.ENVIRONMENTS
 
     DEFAULT_FUNCTION_NAME = "golf"
-    ENV_COVERCODE = {
-        "python_3": None,
-        "javascript": None
-    }
