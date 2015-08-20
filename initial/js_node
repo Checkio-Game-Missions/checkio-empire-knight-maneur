@@ -11,4 +11,5 @@ function golf(cells) {
 //    assert.equal(golf("h1-g2"), 4, "Third");
 //    assert.equal(golf("h8-d7"), 3, "Fourth");
 //    assert.equal(golf("a1-h8"), 6, "Fifth");
+//    console.log("All set? Click 'Check' to review your code and earn rewards!");
 //}
